@@ -79,3 +79,8 @@ TARGET_LIBINIT_DEFINES_FILE := device/samsung/d2lte/init/init_d2lte.c
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/d2lte
+
+# TWRP2 Support
+DEVICE_RESOLUTION := 720x1280
+RECOVERY_GRAPHICS_USE_LINELENGTH := true
+TARGET_RECOVERY_DEVICE_MODULES += twrp.fstab
